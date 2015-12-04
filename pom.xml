@@ -19,6 +19,7 @@
         <module>solver-service</module>
         <module>config-server</module>
         <module>discovery-service</module>
+        <module>web-service</module>
     </modules>
 
 </project>

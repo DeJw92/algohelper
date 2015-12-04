@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @RequestMapping(value="/test", method= RequestMethod.GET)
-    public String enter() {
-        return "test";
+    @RequestMapping(value="/solver-service-test", method= RequestMethod.GET)
+    public String solve() {
+        return "Result from test controller";
     }
 
 }
